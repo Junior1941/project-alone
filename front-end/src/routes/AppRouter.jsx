@@ -6,6 +6,8 @@ import Header from '../layout/Header'
 import UserHome from '../layout/UserHome'
 import NewTodoForm from '../layout/NewTodoForm'
 import Forgotpassword from '../layout/Forgotpassword'
+import Landing from '../layout/Landing'
+
 
 const guestRouter = createBrowserRouter([
   {
@@ -16,10 +18,10 @@ const guestRouter = createBrowserRouter([
     </>,
     children: [
 
-      { index:   true, element: <LoginForm /> },
+      { index:  true, element: <Landing /> },
+      { path: '/loginForm', element: <LoginForm /> },
       { path: '/forgotpassword', element: <Forgotpassword />},
       { path: '/login', element: <LoginForm />},
-      { path: '/register1', element: <RegisterForm />},
       { path: '/register', element: <RegisterForm />}
     ]
   }

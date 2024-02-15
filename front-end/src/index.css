@@ -8,6 +8,10 @@
     FONT-FAMILY: emoji;
 }
 
+.Font1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .Font-position{
     margin: -10px;
     font-size: small;

@@ -41,7 +41,7 @@ export default function RegisterForm() {
               <span className="text-gray-800 Font">ชื่อ</span>
               <input
                 type="text"
-                className="form-input mt-1 block w-full h-10 border rounded-md"
+                className="form-input mt-1 block w-full h-12 border rounded-md"
                 name="name"
                 value={input.name}
                 onChange={handleChange}

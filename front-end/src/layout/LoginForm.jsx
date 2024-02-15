@@ -87,7 +87,7 @@ export default function LoginForm() {
               type="submit"
               className="btn bg-black border-white border-[1px] text-white shadow-md hover:shadow-white pl-2 ml-3 mt-5 w-40 h-10 rounded-[30px] Font"
             >
-              เข้าสู่ระบบ
+              <Link>เข้าสู่ระบบ</Link>
             </button>
           </div>
         </div>
